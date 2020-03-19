@@ -7,3 +7,24 @@
 [submodule "nucleotide-count"]
 	path = nucleotide-count
 	url = ./nucleotide-count/
+[submodule "pig-latin"]
+	path = pig-latin
+	url = ./pig-latin/
+[submodule "protein-translation"]
+	path = protein-translation
+	url = ./protein-translation/
+[submodule "rna-transcription"]
+	path = rna-transcription
+	url = ./rna-transcription/
+[submodule "rotational-cipher"]
+	path = rotational-cipher
+	url = ./rotational-cipher/
+[submodule "secret-handshake"]
+	path = secret-handshake
+	url = ./secret-handshake/
+[submodule "strain"]
+	path = strain
+	url = ./strain/
+[submodule "word-count"]
+	path = word-count
+	url = ./word-count/
