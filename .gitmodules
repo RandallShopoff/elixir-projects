@@ -1,3 +1,9 @@
 [submodule "roman-numerals"]
 	path = roman-numerals
 	url = ./roman-numerals/
+[submodule "hello-world"]
+	path = hello-world
+	url = ./hello-world/
+[submodule "nucleotide-count"]
+	path = nucleotide-count
+	url = ./nucleotide-count/
