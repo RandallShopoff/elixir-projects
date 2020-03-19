@@ -28,3 +28,12 @@
 [submodule "word-count"]
 	path = word-count
 	url = ./word-count/
+[submodule "resistor-color"]
+	path = resistor-color
+	url = ./accumulate/
+[submodule "accumulate"]
+	path = accumulate
+	url = ./accumulate/
+[submodule "space-age"]
+	path = space-age
+	url = ./space-age/
