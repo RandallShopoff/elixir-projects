@@ -6,31 +6,33 @@ defmodule ResistorColor do
 
   """
 
+  @colors [
+    "black",
+    "brown",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "violet",
+    "grey",
+    "white"
+  ]
+
   @spec colors() :: list(String.t())
   def colors do
-    [
-      "black",
-      "brown",
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "violet",
-      "grey",
-      "white"
-    ]
+    @colors
   end
 
   @spec code(String.t()) :: integer()
-  def code("black"), do: 0
-  def code("brown"), do: 1
-  def code("red"), do: 2
-  def code("orange"), do: 3
-  def code("yellow"), do: 4
-  def code("green"), do: 5
-  def code("blue"), do: 6
-  def code("violet"), do: 7
-  def code("grey"), do: 8
-  def code("white"), do: 9
+  def code("black"), do: Enum.find_index(@colors, &(&1 == "black"))
+  def code("brown"), do: Enum.find_index(@colors, &(&1 == "brown"))
+  def code("red"), do: Enum.find_index(@colors, &(&1 == "red"))
+  def code("orange"), do: Enum.find_index(@colors, &(&1 == "orange"))
+  def code("yellow"), do: Enum.find_index(@colors, &(&1 == "yellow"))
+  def code("green"), do: Enum.find_index(@colors, &(&1 == "green"))
+  def code("blue"), do: Enum.find_index(@colors, &(&1 == "blue"))
+  def code("violet"), do: Enum.find_index(@colors, &(&1 == "violet"))
+  def code("grey"), do: Enum.find_index(@colors, &(&1 == "grey"))
+  def code("white"), do: Enum.find_index(@colors, &(&1 == "white"))
 end
